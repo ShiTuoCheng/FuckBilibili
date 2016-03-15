@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E499C41C97B1B600A4448E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E499C31C97B1B600A4448E /* main.m */; };
+		03E499C71C97B1B600A4448E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E499C61C97B1B600A4448E /* AppDelegate.m */; };
+		03E499CA1C97B1B600A4448E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E499C91C97B1B600A4448E /* ViewController.m */; };
+		03E499CD1C97B1B600A4448E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E499CB1C97B1B600A4448E /* Main.storyboard */; };
+		03E499CF1C97B1B600A4448E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E499CE1C97B1B600A4448E /* Assets.xcassets */; };
+		03E499D21C97B1B600A4448E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E499D01C97B1B600A4448E /* LaunchScreen.storyboard */; };
+		03E499DD1C97B1B600A4448E /* FuckBilibiliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E499DC1C97B1B600A4448E /* FuckBilibiliTests.m */; };
+		03E499E81C97B1B600A4448E /* FuckBilibiliUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E499E71C97B1B600A4448E /* FuckBilibiliUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03E499D91C97B1B600A4448E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E499B71C97B1B600A4448E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E499BE1C97B1B600A4448E;
+			remoteInfo = FuckBilibili;
+		};
+		03E499E41C97B1B600A4448E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E499B71C97B1B600A4448E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E499BE1C97B1B600A4448E;
+			remoteInfo = FuckBilibili;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E499BF1C97B1B600A4448E /* FuckBilibili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuckBilibili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E499C31C97B1B600A4448E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E499C51C97B1B600A4448E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03E499C61C97B1B600A4448E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03E499C81C97B1B600A4448E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03E499C91C97B1B600A4448E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03E499CC1C97B1B600A4448E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E499CE1C97B1B600A4448E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E499D11C97B1B600A4448E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E499D31C97B1B600A4448E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E499D81C97B1B600A4448E /* FuckBilibiliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckBilibiliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E499DC1C97B1B600A4448E /* FuckBilibiliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuckBilibiliTests.m; sourceTree = "<group>"; };
+		03E499DE1C97B1B600A4448E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E499E31C97B1B600A4448E /* FuckBilibiliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckBilibiliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E499E71C97B1B600A4448E /* FuckBilibiliUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuckBilibiliUITests.m; sourceTree = "<group>"; };
+		03E499E91C97B1B600A4448E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E499BC1C97B1B600A4448E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E499D51C97B1B600A4448E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E499E01C97B1B600A4448E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E499B61C97B1B600A4448E = {
+			isa = PBXGroup;
+			children = (
+				03E499C11C97B1B600A4448E /* FuckBilibili */,
+				03E499DB1C97B1B600A4448E /* FuckBilibiliTests */,
+				03E499E61C97B1B600A4448E /* FuckBilibiliUITests */,
+				03E499C01C97B1B600A4448E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E499C01C97B1B600A4448E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E499BF1C97B1B600A4448E /* FuckBilibili.app */,
+				03E499D81C97B1B600A4448E /* FuckBilibiliTests.xctest */,
+				03E499E31C97B1B600A4448E /* FuckBilibiliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E499C11C97B1B600A4448E /* FuckBilibili */ = {
+			isa = PBXGroup;
+			children = (
+				03E499C51C97B1B600A4448E /* AppDelegate.h */,
+				03E499C61C97B1B600A4448E /* AppDelegate.m */,
+				03E499C81C97B1B600A4448E /* ViewController.h */,
+				03E499C91C97B1B600A4448E /* ViewController.m */,
+				03E499CB1C97B1B600A4448E /* Main.storyboard */,
+				03E499CE1C97B1B600A4448E /* Assets.xcassets */,
+				03E499D01C97B1B600A4448E /* LaunchScreen.storyboard */,
+				03E499D31C97B1B600A4448E /* Info.plist */,
+				03E499C21C97B1B600A4448E /* Supporting Files */,
+			);
+			path = FuckBilibili;
+			sourceTree = "<group>";
+		};
+		03E499C21C97B1B600A4448E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E499C31C97B1B600A4448E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03E499DB1C97B1B600A4448E /* FuckBilibiliTests */ = {
+			isa = PBXGroup;
+			children = (
+				03E499DC1C97B1B600A4448E /* FuckBilibiliTests.m */,
+				03E499DE1C97B1B600A4448E /* Info.plist */,
+			);
+			path = FuckBilibiliTests;
+			sourceTree = "<group>";
+		};
+		03E499E61C97B1B600A4448E /* FuckBilibiliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03E499E71C97B1B600A4448E /* FuckBilibiliUITests.m */,
+				03E499E91C97B1B600A4448E /* Info.plist */,
+			);
+			path = FuckBilibiliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E499BE1C97B1B600A4448E /* FuckBilibili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E499EC1C97B1B600A4448E /* Build configuration list for PBXNativeTarget "FuckBilibili" */;
+			buildPhases = (
+				03E499BB1C97B1B600A4448E /* Sources */,
+				03E499BC1C97B1B600A4448E /* Frameworks */,
+				03E499BD1C97B1B600A4448E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuckBilibili;
+			productName = FuckBilibili;
+			productReference = 03E499BF1C97B1B600A4448E /* FuckBilibili.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03E499D71C97B1B600A4448E /* FuckBilibiliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E499EF1C97B1B600A4448E /* Build configuration list for PBXNativeTarget "FuckBilibiliTests" */;
+			buildPhases = (
+				03E499D41C97B1B600A4448E /* Sources */,
+				03E499D51C97B1B600A4448E /* Frameworks */,
+				03E499D61C97B1B600A4448E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E499DA1C97B1B600A4448E /* PBXTargetDependency */,
+			);
+			name = FuckBilibiliTests;
+			productName = FuckBilibiliTests;
+			productReference = 03E499D81C97B1B600A4448E /* FuckBilibiliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03E499E21C97B1B600A4448E /* FuckBilibiliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E499F21C97B1B600A4448E /* Build configuration list for PBXNativeTarget "FuckBilibiliUITests" */;
+			buildPhases = (
+				03E499DF1C97B1B600A4448E /* Sources */,
+				03E499E01C97B1B600A4448E /* Frameworks */,
+				03E499E11C97B1B600A4448E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E499E51C97B1B600A4448E /* PBXTargetDependency */,
+			);
+			name = FuckBilibiliUITests;
+			productName = FuckBilibiliUITests;
+			productReference = 03E499E31C97B1B600A4448E /* FuckBilibiliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E499B71C97B1B600A4448E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "史拓成";
+				TargetAttributes = {
+					03E499BE1C97B1B600A4448E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					03E499D71C97B1B600A4448E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 03E499BE1C97B1B600A4448E;
+					};
+					03E499E21C97B1B600A4448E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 03E499BE1C97B1B600A4448E;
+					};
+				};
+			};
+			buildConfigurationList = 03E499BA1C97B1B600A4448E /* Build configuration list for PBXProject "FuckBilibili" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E499B61C97B1B600A4448E;
+			productRefGroup = 03E499C01C97B1B600A4448E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E499BE1C97B1B600A4448E /* FuckBilibili */,
+				03E499D71C97B1B600A4448E /* FuckBilibiliTests */,
+				03E499E21C97B1B600A4448E /* FuckBilibiliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E499BD1C97B1B600A4448E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E499D21C97B1B600A4448E /* LaunchScreen.storyboard in Resources */,
+				03E499CF1C97B1B600A4448E /* Assets.xcassets in Resources */,
+				03E499CD1C97B1B600A4448E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E499D61C97B1B600A4448E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E499E11C97B1B600A4448E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E499BB1C97B1B600A4448E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E499CA1C97B1B600A4448E /* ViewController.m in Sources */,
+				03E499C71C97B1B600A4448E /* AppDelegate.m in Sources */,
+				03E499C41C97B1B600A4448E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E499D41C97B1B600A4448E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E499DD1C97B1B600A4448E /* FuckBilibiliTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E499DF1C97B1B600A4448E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E499E81C97B1B600A4448E /* FuckBilibiliUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E499DA1C97B1B600A4448E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E499BE1C97B1B600A4448E /* FuckBilibili */;
+			targetProxy = 03E499D91C97B1B600A4448E /* PBXContainerItemProxy */;
+		};
+		03E499E51C97B1B600A4448E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E499BE1C97B1B600A4448E /* FuckBilibili */;
+			targetProxy = 03E499E41C97B1B600A4448E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03E499CB1C97B1B600A4448E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E499CC1C97B1B600A4448E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E499D01C97B1B600A4448E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E499D11C97B1B600A4448E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E499EA1C97B1B600A4448E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03E499EB1C97B1B600A4448E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E499ED1C97B1B600A4448E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuckBilibili/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shituocheng.FuckBilibili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03E499EE1C97B1B600A4448E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FuckBilibili/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shituocheng.FuckBilibili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03E499F01C97B1B600A4448E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuckBilibiliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shituocheng.FuckBilibiliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuckBilibili.app/FuckBilibili";
+			};
+			name = Debug;
+		};
+		03E499F11C97B1B600A4448E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FuckBilibiliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shituocheng.FuckBilibiliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuckBilibili.app/FuckBilibili";
+			};
+			name = Release;
+		};
+		03E499F31C97B1B600A4448E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FuckBilibiliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shituocheng.FuckBilibiliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FuckBilibili;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		03E499F41C97B1B600A4448E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FuckBilibiliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shituocheng.FuckBilibiliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FuckBilibili;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E499BA1C97B1B600A4448E /* Build configuration list for PBXProject "FuckBilibili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E499EA1C97B1B600A4448E /* Debug */,
+				03E499EB1C97B1B600A4448E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E499EC1C97B1B600A4448E /* Build configuration list for PBXNativeTarget "FuckBilibili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E499ED1C97B1B600A4448E /* Debug */,
+				03E499EE1C97B1B600A4448E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03E499EF1C97B1B600A4448E /* Build configuration list for PBXNativeTarget "FuckBilibiliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E499F01C97B1B600A4448E /* Debug */,
+				03E499F11C97B1B600A4448E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03E499F21C97B1B600A4448E /* Build configuration list for PBXNativeTarget "FuckBilibiliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E499F31C97B1B600A4448E /* Debug */,
+				03E499F41C97B1B600A4448E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E499B71C97B1B600A4448E /* Project object */;
+}
